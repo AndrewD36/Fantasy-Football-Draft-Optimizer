@@ -1,0 +1,103 @@
+######################################
+# Python / Virtual Environments
+######################################
+.venv/
+venv/
+env/
+ENV/
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+######################################
+# Environment & Secrets
+######################################
+.env
+.env.*
+*.env
+
+######################################
+# SQLite / Local Databases
+######################################
+*.db
+*.sqlite
+*.sqlite3
+
+######################################
+# Python tooling
+######################################
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage.xml
+htmlcov/
+
+######################################
+# Node / Frontend (future-proof)
+######################################
+node_modules/
+dist/
+build/
+.next/
+out/
+
+######################################
+# C++ / Build Artifacts
+######################################
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+main.exe
+
+######################################
+# Logs / Runtime Artifacts
+######################################
+*.log
+logs/
+
+######################################
+# IDE / Editor
+######################################
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+.idea/
+*.swp
+*.swo
+
+######################################
+# OS
+######################################
+.DS_Store
+Thumbs.db
+
+######################################
+# Data / ML (future-proof)
+######################################
+data/
+datasets/
+*.csv
+*.parquet
+*.h5
+*.pkl
+*.joblib
+*.onnx
+
+######################################
+# API Cache / Scraped Data
+######################################
+cache/
+tmp/
